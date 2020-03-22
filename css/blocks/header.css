@@ -35,7 +35,7 @@
 
 .header__link li a {
     font-size: 14px;
-    color: #FFF;
+    color: #000;
     display: block;
     text-transform: uppercase;
     padding: 15px 30px 15px 50px;
@@ -59,11 +59,12 @@
 }
 
 .header__tel {
-    margin-left: auto;position: relative;
+    margin-left: auto;
+    position: relative;
 }
 
 .header__tel > a {
-    color: #fff;
+    color: #000;
     font-size: 24px;
     padding: 20px;
     text-decoration: none;
@@ -75,7 +76,7 @@
 .header__tel .fa-phone {
     position: absolute;
     font-size: 30px;
-    color: #fff;
+    color: #000;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
@@ -114,11 +115,17 @@
 
 .header__logoblock {
     background-image: url('../../img/header-bg.png');
-    background-position: center;
     height: 250px;
-    background-repeat: round;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -127,7 +134,7 @@
 }
 
 .header__logoblock img {
-    padding: 40px 0px 30px 50px;
+    padding: 50px 0px 30px 50px;
 }
 
 .header__logoblock__menu {
@@ -150,7 +157,7 @@
 .header__logoblock__menu ul li a {
     padding: 15px 20px 15px 20px;
     display: block;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-align: center;
     
@@ -163,6 +170,7 @@
 .header__logoblock__menu li a:hover {
     background-color: #f7bb16;
     transition: all 0.5s ease;
+    color: #fff;
 }
 
 .header__logoblock__menu li:first-child a:hover {

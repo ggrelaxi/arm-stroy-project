@@ -1,0 +1,41 @@
+.footer {
+    background-image: url('../../img/header-texture-bg.jpg');
+}
+
+.footer__info {
+    border-top: 1px solid #f7bb16;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer__menu ul, .footer__address ul {
+    list-style: none;
+}
+
+.footer__menu ul li a, .footer__address ul li {
+    color: #000;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer__menu ul li a:hover {
+    text-decoration: underline;
+    color: #FFF;
+    transition: all 0.5s ease;
+}
+
+.footer__address .fa {
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+}
